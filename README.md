@@ -1,13 +1,15 @@
 
 # Description
 
-This repo contains an example of OpenTelemetry instrumentation of Flask, including Trace ID injection into JSON logs.
+Este repositorio contiene un ejemplo de instrumentacion Flask de OpenTelemetry, incluye injeccion de Trace ID en logs formato JSON.
 
 Using docker:
 ```
 make build
 make run
 
-# Then send HTTP requests to localhost:8000/rolldice
-# Examine the logs from both containers, and you should see the trace ID.
+# Enviar solicitudes HTTP a  localhost:8000/rolldice
+# Exameniar los logs donde podremos ver el trace ID.
 ```
+
+
